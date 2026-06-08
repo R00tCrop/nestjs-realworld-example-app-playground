@@ -8,9 +8,9 @@
     "start": "node index.js",
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main.js",
-    "test": "jest --config=jest.json",
-    "test:watch": "jest --watch --config=jest.json",
-    "test:coverage": "jest --config=jest.json --coverage --coverageDirectory=coverage"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --coverageDirectory=coverage"
   },
   "repository": {
     "type": "git",
@@ -58,6 +58,6 @@
     "supertest": "^3.4.2",
     "ts-jest": "^25.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^3.9.10"
   }
 }
